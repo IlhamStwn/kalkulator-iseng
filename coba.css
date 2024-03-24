@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{
+    height: 932px;
+    width: 430px;
+    border: 1px black;
+    background-color: rgb(12, 12, 15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    border-radius: 20px;
+    
+}
+.input input{
+    width: 350px;
+    height: 180px;
+    margin-top: 65px;
+    border-radius: 17px;
+    color: white;
+    background-color: rgb(12, 12, 15) ;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    text-align: end;
+}
+
+.tombol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.tombol button{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 40px;
+    
+}
+
+#abu{
+    background-color: grey;
+}
+#kuning{
+    background-color: rgb(245, 109, 6);
+    color: wheat;
+}
+#putih{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
